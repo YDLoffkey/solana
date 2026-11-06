@@ -159,4 +159,6 @@ server.on("listening", () => {
   console.log(chalk.green(`🌍 Server is running on http://localhost:${PORT}`));
 });
 
-server.listen({ port: PORT });
+server.listen(PORT, "0.0.0.0", () => {
+  console.log(chalk.green(`🌍 Server is running on port ${PORT}`));
+});
