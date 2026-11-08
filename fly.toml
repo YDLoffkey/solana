@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for solana-di3rsw on 2026-11-06T04:56:22Z
+# fly.toml app configuration file generated for solana-opus on 2026-11-08T05:44:53Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'solana-di3rsw'
-primary_region = 'iad'
+app = 'solana-opus'
+primary_region = 'ams'
 
 [build]
 [http_service]
